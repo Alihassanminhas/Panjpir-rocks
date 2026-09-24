@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="Discover the quiet mountain landscapes of Panj Pir. Find your way to a slower kind of escape.">
+  <title>Panj Pir — Find your quiet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#202820;--muted:#6e766c;--paper:#f6f5ef;--green:#334d3c;--lime:#d4e0b3;--line:#dedfd5;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--wrap:1240px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(var(--wrap),calc(100% - 64px));margin-inline:auto}.eyebrow{font-size:.7rem;letter-spacing:.19em;text-transform:uppercase;font-weight:700;color:#73806c}.serif{font-family:var(--serif);font-weight:500;letter-spacing:-.045em}.section{padding:112px 0}.topbar{height:78px;display:flex;align-items:center;position:absolute;inset:0 0 auto;z-index:5;color:white}.topbar-inner{display:flex;align-items:center;justify-content:space-between}.brand{font-family:var(--serif);font-size:1.4rem;letter-spacing:.01em;font-weight:700}.brand em{font-style:normal;color:#d1dfa9}.navlinks{display:flex;gap:35px;align-items:center;font-size:.83rem}.navlinks a{opacity:.88;transition:opacity .2s}.navlinks a:hover{opacity:1}.nav-cta,.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 21px;border:1px solid transparent;background:var(--lime);color:#243326;border-radius:3px;font-weight:700;font-size:.77rem;letter-spacing:.02em;transition:transform .2s,background .2s}.nav-cta{padding:11px 16px;background:transparent;border-color:#ffffff85;color:white}.button:hover,.nav-cta:hover{transform:translateY(-2px)}.button.dark{background:var(--green);color:white}.button.outline{border-color:#b9c0b2;background:transparent}.menu-toggle{display:none;background:none;border:1px solid #ffffff8c;color:white;padding:9px 12px;border-radius:3px}
+    .hero{height:min(830px,100svh);min-height:690px;position:relative;background:#455c4a url('1.png') center 53%/cover no-repeat;color:white;display:flex;align-items:center}.hero:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,26,20,.73) 0%,rgba(13,26,20,.35) 47%,rgba(13,26,20,.03) 100%),linear-gradient(0deg,rgba(13,26,20,.27),transparent 42%)}.hero-content{position:relative;padding-top:70px}.hero .eyebrow{color:#d5dfbf}.hero h1{font-size:clamp(4rem,8.2vw,7.5rem);line-height:.98;max-width:760px;margin:23px 0 22px}.hero p{max-width:420px;color:#f0f0e7;font-size:1.02rem;line-height:1.75;margin:0 0 32px}.hero-actions{display:flex;align-items:center;gap:24px}.text-link{font-size:.83rem;font-weight:600;border-bottom:1px solid #ffffffa0;padding:0 0 5px}.hero-note{position:absolute;right:max(32px,calc((100vw - var(--wrap))/2));bottom:38px;display:flex;align-items:center;gap:12px;color:#f3f1e8;font-size:.74rem;letter-spacing:.07em}.hero-note:before{content:'';width:32px;height:1px;background:#e2dfc9}
+    .intro{display:grid;grid-template-columns:1.02fr .98fr;gap:10%;align-items:center}.intro-photo{position:relative;height:480px}.intro-photo img{width:100%;height:100%;object-fit:cover}.photo-label{position:absolute;left:-20px;bottom:24px;background:var(--lime);padding:17px 22px;font-family:var(--serif);font-size:1.05rem}.intro-copy h2,.section-heading h2{font-size:clamp(2.8rem,5vw,4.6rem);line-height:1.06;margin:17px 0 22px}.intro-copy p{font-size:.98rem;line-height:1.9;color:var(--muted);max-width:500px}.intro-copy .button{margin-top:17px}
+    .experiences{background:#e9ebe2}.section-heading{max-width:680px;margin-bottom:46px}.section-heading.center{text-align:center;margin:0 auto 48px}.section-heading h2{margin-bottom:16px}.section-heading p{line-height:1.8;color:var(--muted);max-width:530px}.section-heading.center p{margin:0 auto}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:var(--paper);min-width:0}.card-image{height:270px;overflow:hidden}.card-image img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.card:hover img{transform:scale(1.04)}.card-body{padding:23px 24px 27px}.card-body h3{font-family:var(--serif);font-size:1.65rem;font-weight:500;margin:0 0 10px}.card-body p{color:var(--muted);font-size:.88rem;line-height:1.75;margin:0}.card-tag{font-size:.66rem;text-transform:uppercase;letter-spacing:.15em;color:#78836d;font-weight:700;margin-bottom:12px}
+    .quote-band{background:var(--green);color:white;padding:78px 0}.quote-inner{display:flex;justify-content:space-between;align-items:center;gap:50px}.quote-inner blockquote{font:500 clamp(1.8rem,3.5vw,3.2rem)/1.3 var(--serif);letter-spacing:-.025em;max-width:770px;margin:0}.quote-mark{font:5rem var(--serif);color:#cbd7ac;line-height:.4}
+    .plan{display:grid;grid-template-columns:.85fr 1.15fr;gap:11%;align-items:start}.plan h2{font-size:clamp(2.8rem,4.8vw,4.3rem);line-height:1.06;margin:16px 0 22px}.plan-copy p{line-height:1.85;color:var(--muted)}.plan-list{border-top:1px solid var(--line)}.plan-item{display:grid;grid-template-columns:52px 1fr;gap:14px;border-bottom:1px solid var(--line);padding:23px 0}.plan-number{font-family:var(--serif);color:#83906e;font-size:1.2rem}.plan-item h3{font-size:.97rem;margin:0 0 7px}.plan-item p{font-size:.87rem;line-height:1.75;color:var(--muted);margin:0}
+    .gallery{padding-top:0}.gallery-grid{display:grid;grid-template-columns:1.15fr .85fr 1fr 1fr;gap:13px;height:280px}.gallery-grid img{width:100%;height:100%;object-fit:cover}.gallery-grid img:nth-child(2){transform:translateY(24px)}
+    .visit{background:#e9ebe2}.visit-panel{display:grid;grid-template-columns:1fr 1fr;background:var(--paper)}.visit-image{min-height:410px}.visit-image img{width:100%;height:100%;object-fit:cover}.visit-copy{padding:clamp(35px,6vw,78px);align-self:center}.visit-copy h2{font:500 clamp(2.5rem,4.5vw,4rem)/1.06 var(--serif);letter-spacing:-.04em;margin:16px 0}.visit-copy p{color:var(--muted);line-height:1.85;font-size:.91rem;max-width:420px}.visit-copy .button{margin-top:17px}
+    footer{background:#202a23;color:white;padding:62px 0 24px}.footer-top{display:flex;justify-content:space-between;align-items:flex-start;padding-bottom:48px}.footer-brand p{color:#b9c1b7;font-size:.85rem;max-width:280px;line-height:1.7}.footer-links{display:flex;gap:42px;color:#d5dbd2;font-size:.82rem}.footer-links div{display:grid;gap:12px}.footer-links a:hover{color:var(--lime)}.footer-bottom{border-top:1px solid #ffffff25;padding-top:20px;display:flex;justify-content:space-between;color:#9da79c;font-size:.72rem}
+    .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}:focus-visible{outline:3px solid #94aa72;outline-offset:4px}
+    @media(max-width:800px){.wrap{width:min(100% - 40px,var(--wrap))}.section{padding:82px 0}.topbar{height:70px}.menu-toggle{display:block}.navlinks{display:none;position:absolute;top:64px;left:20px;right:20px;background:#26372c;padding:20px;align-items:stretch;gap:0;flex-direction:column}.navlinks.open{display:flex}.navlinks a{padding:13px 6px}.navlinks .nav-cta{margin-top:8px;justify-content:center}.hero{min-height:650px;height:88svh;background-position:58% center}.hero h1{font-size:clamp(3.7rem,12vw,6rem)}.hero-note{right:20px}.intro{grid-template-columns:1fr;gap:43px}.intro-photo{height:400px;margin-left:15px}.intro-copy{max-width:600px}.cards{grid-template-columns:1fr 1fr}.cards .card:last-child{grid-column:1/-1}.cards .card:last-child .card-image{height:340px}.plan{grid-template-columns:1fr;gap:32px}.gallery-grid{grid-template-columns:1fr 1fr;height:430px}.gallery-grid img:nth-child(2){transform:none}.visit-panel{grid-template-columns:1fr}.visit-image{min-height:310px}.quote-inner{align-items:flex-start}}
+    @media(max-width:520px){.wrap{width:calc(100% - 36px)}.section{padding:68px 0}.hero{min-height:620px;height:90svh;background-position:58% center}.hero:before{background:linear-gradient(90deg,rgba(13,26,20,.7),rgba(13,26,20,.13)),linear-gradient(0deg,rgba(13,26,20,.35),transparent 55%)}.hero-content{padding-top:45px}.hero h1{font-size:3.65rem}.hero p{font-size:.92rem}.hero-actions{gap:17px;flex-wrap:wrap}.hero-note{font-size:.65rem;bottom:24px}.intro-photo{height:300px}.intro-copy h2,.section-heading h2,.plan h2{font-size:2.8rem}.photo-label{left:-12px}.cards{grid-template-columns:1fr;gap:16px}.cards .card:last-child{grid-column:auto}.cards .card:last-child .card-image,.card-image{height:235px}.quote-band{padding:60px 0}.quote-inner{gap:15px;flex-direction:column}.quote-mark{font-size:3.8rem}.quote-inner blockquote{font-size:1.85rem}.gallery-grid{height:330px;gap:8px}.visit-image{min-height:250px}.visit-copy{padding:30px 23px 38px}.footer-top{gap:30px;flex-direction:column}.footer-links{gap:25px}.footer-bottom{gap:10px;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="topbar"><div class="wrap topbar-inner">
+      <a class="brand" href="#home" aria-label="Panj Pir home">PANJ <em>PIR</em></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="siteNav">Menu</button>
+      <nav class="navlinks" id="siteNav" aria-label="Main navigation">
+        <a href="#story">The place</a><a href="#experiences">Discover</a><a href="#plan">Plan your visit</a><a class="nav-cta" href="#visit">Start exploring <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div></div>
+    <div class="wrap hero-content">
+      <span class="eyebrow">A little closer to the sky</span>
+      <h1 class="serif">Find your<br>quiet.</h1>
+      <p>Open hills, pine-scented air and a horizon that asks you to slow down. Make room for a different kind of escape.</p>
+      <div class="hero-actions"><a class="button" href="#experiences">Explore Panj Pir <span aria-hidden="true">↓</span></a><a class="text-link" href="#story">Get to know the place</a></div>
+    </div>
+    <div class="hero-note">A mountain escape in Pakistan</div>
+  </header>
+  <main>
+    <section class="section" id="story"><div class="wrap intro">
+      <div class="intro-photo reveal"><img src="2.png" alt="Layered mountain ridges beneath an open sky"><span class="photo-label">Take the scenic way.</span></div>
+      <div class="intro-copy reveal"><span class="eyebrow">The place</span><h2 class="serif">A slower rhythm, written into the landscape.</h2><p>Panj Pir is an invitation to step away from the rush. Follow the shape of the hills, pause where the view opens up, and let the day unfold at its own pace.</p><p>Come for the fresh air and wide-open views. Leave a little more room for wonder.</p><a href="#plan" class="button dark">Make a day of it <span aria-hidden="true">→</span></a></div>
+    </div></section>
+    <section class="section experiences" id="experiences"><div class="wrap">
+      <div class="section-heading center reveal"><span class="eyebrow">Find your kind of outside</span><h2 class="serif">The best days have room to wander.</h2><p>Take your time. There’s more than one way to make the mountains yours.</p></div>
+      <div class="cards">
+        <article class="card reveal"><div class="card-image"><img src="3.png" alt="Green mountain hills in the late afternoon light" loading="lazy"></div><div class="card-body"><div class="card-tag">01 · Take it in</div><h3>Chase the view</h3><p>Find a quiet lookout, watch the light move across the ridges, and stay a little longer than planned.</p></div></article>
+        <article class="card reveal"><div class="card-image"><img src="4.png" alt="A tree-lined mountain landscape beneath a broad sky" loading="lazy"></div><div class="card-body"><div class="card-tag">02 · Get outside</div><h3>Follow the trail</h3><p>Stretch your legs on the hillside, move at a comfortable pace, and let curiosity pick the next turn.</p></div></article>
+        <article class="card reveal"><div class="card-image"><img src="5.png" alt="Mountain landscape glowing in warm golden light" loading="lazy"></div><div class="card-body"><div class="card-tag">03 · Slow down</div><h3>Stay for sunset</h3><p>As the day softens, find a place to sit back and take in the last color over the mountains.</p></div></article>
+      </div>
+    </div></section>
+    <section class="quote-band"><div class="wrap quote-inner reveal"><span class="quote-mark" aria-hidden="true">“</span><blockquote>Some places make you want to do more. This one reminds you that being here is enough.</blockquote></div></section>
+    <section class="section" id="plan"><div class="wrap plan">
+      <div class="plan-copy reveal"><span class="eyebrow">A little preparation goes a long way</span><h2 class="serif">Make space for the unexpected.</h2><p>Keep the day flexible and let local conditions guide your plans. Before setting out, check current access and weather with people who know the area.</p><a href="#visit" class="button outline">A few things to know <span aria-hidden="true">↓</span></a></div>
+      <div class="plan-list reveal">
+        <div class="plan-item"><div class="plan-number">01</div><div><h3>Check before you go</h3><p>Road and trail access can change. Ask locally about the route, conditions and anything that may affect your visit.</p></div></div>
+        <div class="plan-item"><div class="plan-number">02</div><div><h3>Pack for the mountains</h3><p>Bring layers, water, comfortable footwear and what you need for a day outdoors.</p></div></div>
+        <div class="plan-item"><div class="plan-number">03</div><div><h3>Leave the place as you found it</h3><p>Take your rubbish with you, respect local communities and give wildlife plenty of space.</p></div></div>
+      </div>
+    </div></section>
+    <section class="section gallery"><div class="wrap"><div class="section-heading reveal"><span class="eyebrow">Little moments, big views</span><h2 class="serif">Take the long way around.</h2></div><div class="gallery-grid reveal"><img src="6.png" alt="Sunlight resting over the mountain landscape" loading="lazy"><img src="2.png" alt="Distant mountain ranges fading into the horizon" loading="lazy"><img src="4.png" alt="Pine trees across a mountain slope" loading="lazy"><img src="1.png" alt="Warm evening sky over forested hills" loading="lazy"></div></div></section>
+    <section class="section visit" id="visit"><div class="wrap visit-panel reveal"><div class="visit-image"><img src="6.png" alt="A quiet mountain view beneath the open sky" loading="lazy"></div><div class="visit-copy"><span class="eyebrow">Your next deep breath</span><h2>Let the mountains set the pace.</h2><p>Use this as inspiration for your trip, then confirm routes and local conditions before you travel. A little planning leaves more time to enjoy the view.</p><a href="#plan" class="button dark">Review the visit notes <span aria-hidden="true">→</span></a></div></div></section>
+  </main>
+  <footer><div class="wrap"><div class="footer-top"><div class="footer-brand"><a class="brand" href="#home">PANJ <em>PIR</em></a><p>A mountain escape for open skies, slower days and the joy of being outdoors.</p></div><div class="footer-links"><div><a href="#story">The place</a><a href="#experiences">Discover</a></div><div><a href="#plan">Plan your visit</a><a href="#home">Back to top ↑</a></div></div></div><div class="footer-bottom"><span>© <span id="year"></span> Panj Pir</span><span>Take only memories. Leave only footprints.</span></div></div></footer>
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('siteNav');
+    toggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(isOpen));
+      toggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open navigation');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const revealObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); }
+    }), { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(item => revealObserver.observe(item));
+  </script>
+</body>
+</html>
